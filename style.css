@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 600px;
+    width: 500px;
+    background-color: #191E29;
+}
+
+.display{
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: greenyellow;
+}
+
+
+button{
+    background-color: grey;
+    color: azure;
+    width: 95px;
+    height: 80px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

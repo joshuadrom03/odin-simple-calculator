@@ -1,6 +1,6 @@
 let num1 = 10;
 let num2= 5;
-let operator = "";
+let operator = "/";
 
 
 function addNums(){
@@ -23,7 +23,25 @@ function divideNums(){
 
 }
 
-console.log("Addition: " + addNums());
-console.log("Subtraction: " + subtractNums());
-console.log("Multiply: " + multipleNums());
-console.log("Divide: " + divideNums());
+function operate(){
+
+    switch(operator){
+        case "+" :
+            console.log(addNums());
+            break;
+        
+        case "-":
+            console.log(subtractNums());
+            break;
+
+        case "*":
+            console.log(multipleNums());
+            break;
+
+        case "/":
+            console.log(divideNums());
+            break;
+    }
+}
+
+
